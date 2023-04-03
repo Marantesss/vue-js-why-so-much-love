@@ -47,32 +47,36 @@ We're going to talk about Vue (well duh...), following the
 <!--
 You can have `style` tag in markdown to override the style for the current page.
 Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
 Here is another comment.
 -->
 
 ---
-transition: slide-up
 src: ./pages/1-who-am-i.md
 ---
 
 ---
-transition: fade-out
 src: ./pages/2-my-experience.md
+---
+
+---
+src: ./pages/3-key-concepts.md
+---
+
+---
+src: ./pages/4-benefits.md
+---
+
+---
+src: ./pages/5-challenges.md
+---
+
+---
+src: ./pages/6-survey.md
+---
+
+---
+src: ./pages/7-q-and-a.md
 ---
 
 ---
@@ -82,7 +86,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 
 # Code
 
-Use code snippets and get the highlighting directly![^1]
+Use code snippets and get the highlighting![^1]
 
 ```ts {all|2|1-6|9|all}
 interface User {

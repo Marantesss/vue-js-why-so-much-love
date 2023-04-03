@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: vuetiful
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
@@ -13,53 +13,36 @@ drawings:
   persist: false
 transition: slide-left
 css: unocss
-title: Welcome to Slidev
+title: Vue.js - Why so much love?
 ---
 
-# Welcome to Slidev
+# Vue.js - Why so much love?
 
-Presentation slides for developers
+Gonçalo Marantes
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
+<div class="pt-12 font-thin">
+  Portugal.Vue - April 5<sup>th</sup>, 2023
 </div>
 
 <!--
-Cenas
+Greet and blah blah
 -->
 
 ---
 transition: fade-out
 ---
 
-# What is Slidev?
+# What can you expect from this talk?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+We're going to talk about Vue (well duh...), following the 
 
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+- 🙋‍♂️ **Who am I?** - And why should you even listen to me in the first place
+- 🧑‍💻 **My experience** - spoiler alert: it has been great so far :)
+- 🗝️ **Key concepts** - Nothing too fancy, just an overview and framework comparison
+- 🤑 **Benefits** - The actual love part
+- 😪 **Challenges** - What's love without a little hate?
+- 🗂️ **A survey** - What do Infraspeak developers think?
+- ❓ **Q/A** - Make me look smart
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -84,28 +67,13 @@ Here is another comment.
 
 ---
 transition: slide-up
+src: ./pages/1-who-am-i.md
 ---
 
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
-
-### Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+---
+transition: fade-out
+src: ./pages/2-my-experience.md
+---
 
 ---
 layout: image-right

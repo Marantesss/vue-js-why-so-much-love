@@ -231,6 +231,8 @@ How reactivity works in Vue is an advanced topic, but you still figure it out [^
 [^2]: https://vuejs.org/guide/extras/reactivity-in-depth.html#how-reactivity-works-in-vue
 
 ---
+transition: slide-up
+---
 
 # Single File Components
 
@@ -254,83 +256,3 @@ How reactivity works in Vue is an advanced topic, but you still figure it out [^
 ```
 
 [^1]: https://vuejs.org/api/sfc-spec.html#overview
-
----
-
-# Why I like Single File Components
-
-<p text="center 6">One file to rule them all! 💍</p>
-
-<div grid="~ cols-2 gap-10" class="justify-center">
-<div v-click>
-<img
-    class="h-20 mx-auto my-4"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-/>
-
-React component files structure [^1]
-
-```
-foo/
-├─ foo.js
-├─ foo.css
-```
-
-</div>
-
-<div v-click>
-<img
-    class="h-20 mx-auto my-4"
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
-/>
-
-Angular component files structure [^2]
-
-```
-foo/
-├─ foo.component.ts
-├─ foo.component.html
-├─ foo.component.css
-
-```
-</div>
-</div>
-
-<div
-    v-click
-    position="absolute"
-    top="50"
-    left="100"
-    rotate="10"
-    background="red"
-    flex="~ gap-4"
-    items="center">
-    <img
-        class="h-20"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png"
-    />
-    <img
-        class="h-20"
-        src="https://em-content.zobj.net/thumbs/160/apple/96/white-heavy-check-mark_2705.png"
-    />
-</div>
-
-
-[^1]: https://legacy.reactjs.org/docs/faq-structure.html
-[^2]: https://angular.io/guide/file-structure#application-source-files
-
----
-transition: slide-up
----
-
-# How does it compare with other frameworks?
-
-TLDR: Vue 3 tends to be one of the most performant frameworks, going hand in hand with the latests versions of Svetle [^1]
-
-<div grid="~ cols-3 gap-10" class="justify-center">
-    <img src="/img/benchmark-operations.png" />
-    <img src="/img/benchmark-startup.png" />
-    <img src="/img/benchmark-memory.png" />
-</div>
-
-[^1]: [JS framework Benchmark (2023)](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_111.0.5563.64.html#eyJmcmFtZXdvcmtzIjpbImtleWVkL2FuZ3VsYXIiLCJrZXllZC9yZWFjdCIsImtleWVkL3N2ZWx0ZSIsImtleWVkL3Z1ZSIsIm5vbi1rZXllZC9yZWFjdCIsIm5vbi1rZXllZC9zdmVsdGUiLCJub24ta2V5ZWQvdnVlIl0sImJlbmNobWFya3MiOlsiMDFfcnVuMWsiLCIwMl9yZXBsYWNlMWsiLCIwM191cGRhdGUxMHRoMWtfeDE2IiwiMDRfc2VsZWN0MWsiLCIwNV9zd2FwMWsiLCIwNl9yZW1vdmUtb25lLTFrIiwiMDdfY3JlYXRlMTBrIiwiMDhfY3JlYXRlMWstYWZ0ZXIxa194MiIsIjA5X2NsZWFyMWtfeDgiLCIyMV9yZWFkeS1tZW1vcnkiLCIyMl9ydW4tbWVtb3J5IiwiMjNfdXBkYXRlNS1tZW1vcnkiLCIyNV9ydW4tY2xlYXItbWVtb3J5IiwiMjZfcnVuLTEway1tZW1vcnkiLCIzMV9zdGFydHVwLWNpIiwiMzRfc3RhcnR1cC10b3RhbGJ5dGVzIl0sImRpc3BsYXlNb2RlIjoxLCJjYXRlZ29yaWVzIjpbMSwyLDMsNCw1XX0=)

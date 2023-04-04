@@ -78,3 +78,15 @@ src: ./pages/6-survey.md
 ---
 src: ./pages/7-q-and-a.md
 ---
+
+---
+layout: outro 
+title: Outro
+twitter: '@marantesss'
+instagram: '@marantesss'
+website: 'https://goncalomarantes.com'
+repository: 'https://github.com/Marantesss/vue-js-why-so-much-love'
+hostedSlides: 'https://goncalomarantes.com/vue-js-why-so-much-love'
+---
+
+# Thank you :)

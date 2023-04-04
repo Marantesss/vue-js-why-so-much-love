@@ -11,5 +11,9 @@
     "@slidev/theme-default": "*",
     "@slidev/theme-seriph": "*",
     "slidev-theme-vuetiful": "^0.3.1"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.24",
+    "@iconify-json/uim": "^1.1.5"
   }
 }

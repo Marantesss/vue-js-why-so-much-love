@@ -25,7 +25,7 @@ Gonçalo Marantes
 </div>
 
 <!--
-Greet and blah blah
+Greet and blah blah|
 -->
 
 ---
@@ -34,7 +34,7 @@ transition: fade-out
 
 # What can you expect from this talk?
 
-We're going to talk about Vue (well duh...), following the 
+We're going to talk about Vue (well duh...) by discussing the following topics:
 
 - 🙋‍♂️ **Who am I?** - And why should you even listen to me in the first place
 - 🧑‍💻 **My experience** - spoiler alert: it has been great so far :)

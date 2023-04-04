@@ -1,5 +1,15 @@
 # 4. Benefits
 
+You right now:
+
+> *Alright, Vue seems cool... but is it for me?*
+
+<div v-click>
+Probably... it depends... But I bet it is.
+
+
+</div>
+
 <style>
 h1 {
     background-color: #2B90B6;
@@ -16,7 +26,7 @@ h1 {
 
 # Why I like Single File Components
 
-<p text="center 6">One file to rule them all! 💍</p>
+<p v-click text="center 6">One file to rule them all! 💍</p>
 
 <div grid="~ cols-2 gap-10" class="justify-center">
 <div v-click>
@@ -78,6 +88,56 @@ foo/
 
 ---
 
+# Ease of use
+
+This is my personal opinion, but Vue just makes sense in my little goldfish brain!
+- ⌨️ One command and you're ready to go;
+- ⚡ You can probably get it up and running in under 5 minutes;
+- 📊 It can be as simple or as complex as you want;
+- 🔋 It comes with batteries included;
+- 📄 SFCs tend to make things simple;
+- 👵 You can probably teach it to your grandma;
+
+<img
+    position="absolute"
+    bottom="4"
+    right="2"
+    class="mx-auto h-60"
+    src="/img/grandma-vue-init.jpg"
+/>
+
+---
+
+# Batteries included and instructions for dummies
+
+There are recommended ways of doing stuff (this is double edged-sword):
+- 📋 **State Manegement:** Pinia (or VueX for Vue 2)
+- 🚦 **Routing:** Vue Router
+- 🧪 **Testing:** Vitest
+- 🎁 **Scaffolding/Bundler:** Vite (vue-cli for Vue 2)
+- 🧑‍💻 **IDE Support for SFC:** Volar (Vetur for Vue 2)
+- 🖨️ **SSR/SSG:** Nuxt (You can still do it manually)
+
+---
+
+# Strong community
+
+This is not unique to Vue (React did it first), but most likely there's a Vue "port" for that library you're considering using!
+
+The vue ecosystem is blooming, and you can easily find the tool or information you need to get your job done.
+
+I mean, just look at us right now 🎉
+
+<img
+    position="absolute"
+    bottom="4"
+    right="2"
+    class="mx-auto h-60"
+    src="/img/ape-meme.jpg"
+/>
+
+---
+
 # How performant is Vue?
 
 TLDR: Vue 3 tends to be one of the most performant frameworks, going hand in hand with the latests versions of Svetle [^1]
@@ -87,6 +147,8 @@ TLDR: Vue 3 tends to be one of the most performant frameworks, going hand in han
     <img src="/img/benchmark-startup.png" />
     <img src="/img/benchmark-memory.png" />
 </div>
+
+**Disclaimer:** These charts only tell part of the story, there are some caveats you should look out for. Plus, performance is not everything :)
 
 [^1]: [JS framework Benchmark (2023)](https://krausest.github.io/js-framework-benchmark/2023/table_chrome_111.0.5563.64.html#eyJmcmFtZXdvcmtzIjpbImtleWVkL2FuZ3VsYXIiLCJrZXllZC9yZWFjdCIsImtleWVkL3N2ZWx0ZSIsImtleWVkL3Z1ZSIsIm5vbi1rZXllZC9yZWFjdCIsIm5vbi1rZXllZC9zdmVsdGUiLCJub24ta2V5ZWQvdnVlIl0sImJlbmNobWFya3MiOlsiMDFfcnVuMWsiLCIwMl9yZXBsYWNlMWsiLCIwM191cGRhdGUxMHRoMWtfeDE2IiwiMDRfc2VsZWN0MWsiLCIwNV9zd2FwMWsiLCIwNl9yZW1vdmUtb25lLTFrIiwiMDdfY3JlYXRlMTBrIiwiMDhfY3JlYXRlMWstYWZ0ZXIxa194MiIsIjA5X2NsZWFyMWtfeDgiLCIyMV9yZWFkeS1tZW1vcnkiLCIyMl9ydW4tbWVtb3J5IiwiMjNfdXBkYXRlNS1tZW1vcnkiLCIyNV9ydW4tY2xlYXItbWVtb3J5IiwiMjZfcnVuLTEway1tZW1vcnkiLCIzMV9zdGFydHVwLWNpIiwiMzRfc3RhcnR1cC10b3RhbGJ5dGVzIl0sImRpc3BsYXlNb2RlIjoxLCJjYXRlZ29yaWVzIjpbMSwyLDMsNCw1XX0=)
 
@@ -99,15 +161,11 @@ TLDR: Vue 3 tends to be one of the most performant frameworks, going hand in han
 [^1]: [Stakoverflow Survey (2022): Most Loved, dreaded and wanted web frameworks and technologies](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies)
 
 ---
+transition: slide-up
+---
 
-# What's the market working for? [^1]
+# What's the market working with? [^1]
 
 <iframe class="mx-auto" width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVxYRuA-vuA337tp7VQjsBz5zIF8dVirAqD-brMQnDy8xaPx0lhUll5p9SFRMOGn4HVZ5T42yQHjz_/pubchart?oid=713110289&amp;format=interactive"></iframe>
 
 [^1]: [Built With Statistics](https://trends.builtwith.com/javascript)
-
----
-transition: slide-up
----
-
-# Last Benefits topic

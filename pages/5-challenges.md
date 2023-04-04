@@ -83,13 +83,14 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={() => this.setState({ change: !this.state.change })}>
+        <button onClick={() =>
+          this.setState({ change: !this.state.change })
+        }>
           Click Here!
         </button>
         {this.state.change
-          ? (<h1>Welcome to Let’s React</h1>)
-          : (<h1>Learn about the concepts of Reactjs</h1>)
-        }
+          ? (<h1>This</h1>)
+          : (<h1>Or that</h1>)}
       </div>
     )
   }
@@ -105,8 +106,8 @@ const App = (props) => {
         Click Here!
       </button>
       { change
-        ? <h1>Welcome to Let’s React</h1>
-        : <h1>Learn about the concepts of Reactjs</h1>}
+        ? <h1>This</h1>
+        : <h1>Or that</h1>}
     </div>
     )
   }
@@ -130,11 +131,25 @@ const App = (props) => {
 <br>
 
 [^1]: [Vue 2 LTS, EOL & Extended Support](https://v2.vuejs.org/lts/)
-[^2]: https://v3-migration.vuejs.org/migration-build.html#migration-build
+[^2]: [Vue 3 Migration Build](https://v3-migration.vuejs.org/migration-build.html#migration-build)
 [^3]: [How to migrate from Vue 2 to Vue 3](https://www.pixelmatters.com/blog/how-to-migrate-from-vue-2-to-vue-3)
 
 ---
 transition: slide-up
 ---
 
-# Last Challenges topic
+# Summing it up
+
+- Go with Vue 3 and don't look back
+- If you're using modern typescript I'd say composition API is the way to go
+- If you're working on a small POC use options API
+
+<img
+  v-click
+  position="absolute"
+  bottom="12"
+  right="6"
+  rotate="10"
+  class="h-60"
+  src="/img/vue-3-meme-superiority.jpg"
+/>

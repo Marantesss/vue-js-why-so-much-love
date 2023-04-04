@@ -1,3 +1,7 @@
+---
+layout: section
+---
+
 # 7. Q&A
 
 <style>

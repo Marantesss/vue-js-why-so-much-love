@@ -1,8 +1,14 @@
+---
+layout: section
+---
+
 # 3. Key concepts
 
-> Vue (pronounced */vjuː/*, like *view*) is a **JavaScript framework** for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a **declarative** and **component-based** programming model that helps you efficiently develop user interfaces, be they simple or complex. [^1]
+<div grid="~ cols-3">
 
-<br />
+<div col="span-2">
+
+> Vue (pronounced */vjuː/*, like *view*) is a **JavaScript framework** for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a **declarative** and **component-based** programming model that helps you efficiently develop user interfaces, be they simple or complex. [^1]
 
 <ul>
     <li v-click="1">JavaScript</li>
@@ -13,10 +19,11 @@
 
 <p v-click="5">But... what does this all mean? 🤔 (Don't worry, we'll get there)</p>
 
-<br />
-<br />
-<br />
+</div>
+</div>
 
+<br />
+<br />
 
 [^1]: https://vuejs.org/guide/introduction.html#what-is-vue
 

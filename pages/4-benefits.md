@@ -1,14 +1,14 @@
+---
+layout: section
+---
+
 # 4. Benefits
 
 You right now:
 
 > *Alright, Vue seems cool... but is it for me?*
 
-<div v-click>
-Probably... it depends... But I bet it is.
-
-
-</div>
+<p v-click>Probably... it depends... But I bet it is.</p>
 
 <style>
 h1 {
@@ -38,9 +38,9 @@ h1 {
 React component files structure [^1]
 
 ```
-foo/
-├─ foo.js
-├─ foo.css
+/ foo
+├── foo.js
+└── foo.css
 ```
 
 </div>
@@ -54,11 +54,10 @@ foo/
 Angular component files structure [^2]
 
 ```
-foo/
-├─ foo.component.ts
-├─ foo.component.html
-├─ foo.component.css
-
+/ foo
+├── foo.component.ts
+├── foo.component.html
+└── foo.component.css
 ```
 </div>
 </div>
@@ -162,7 +161,7 @@ TLDR: Vue 3 tends to be one of the most performant frameworks, going hand in han
 
 <iframe class="mx-auto" width="600" height="371" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVxYRuA-vuA337tp7VQjsBz5zIF8dVirAqD-brMQnDy8xaPx0lhUll5p9SFRMOGn4HVZ5T42yQHjz_/pubchart?oid=855587019&amp;format=interactive"></iframe>
 
-[^1]: [Stakoverflow Survey (2022): Most Loved, dreaded and wanted web frameworks and technologies](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-web-frameworks-and-technologies)
+[^1]: [Stakoverflow Survey (2022): Most popular web frameworks and technologies](https://survey.stackoverflow.co/2022/#section-most-popular-technologies-web-frameworks-and-technologies)
 
 ---
 transition: slide-up

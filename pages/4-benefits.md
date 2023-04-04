@@ -128,6 +128,10 @@ The vue ecosystem is blooming, and you can easily find the tool or information y
 
 I mean, just look at us right now 🎉
 
+There's also a lot of "official" learning resources: 🤓
+- [Vue Mastery](https://www.vuemastery.com/)
+- [Vue School](https://vueschool.io/)
+
 <img
     position="absolute"
     bottom="4"

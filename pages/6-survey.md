@@ -89,7 +89,48 @@ h1 {
 
 1. 🔪 Kill the composition API
 2. Two way data binding (too much abstraction)
-3. Keep support for class-based components with TS Decorators
+3. Keep support for class-based components with TS Decorators [^1]
+
+<div grid="~ cols-2 gap-2" v-click>
+
+<div>
+
+```ts
+@Component
+export default class YourComponent extends Vue {
+  @Prop(Number)
+  readonly propA: number | undefined
+  @Prop({ default: 'default value' })
+  readonly propB!: string
+  @Prop([String, Boolean])
+  readonly propC: string | boolean | undefined
+
+  @Emit('my-event')
+  emitMyEvent() { /* ... */ }
+```
+
+</div>
+
+<div>
+
+```ts
+  @Ref('aButton')
+  readonly button!: HTMLButtonElement
+
+  get myComputedProperty() { /* ... */ }
+  
+  @Watch('child')
+  onChildChanged(val: string, oldVal: string) {}
+
+  myMethod(num: number): number { /*...*/ }
+}
+```
+
+</div>
+</div>
+
+
+[^1]: https://class-component.vuejs.org/ & https://github.com/kaorun343/vue-property-decorator
 
 ---
 transition: slide-up

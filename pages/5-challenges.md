@@ -4,9 +4,16 @@ layout: section
 
 # 5. Challenges
 
+<div grid="~ cols-3">
+
+<div col="span-2">
+
 There are two sides to every coin, and Vue is no exception.
 
 > "*Inside each of us, there is the seed of both good and evil. It's a constant struggle as to which one will win. And one cannot exist without the other.*" - Eric Burdon
+
+</div>
+</div>
 
 <style>
 h1 {

@@ -257,7 +257,7 @@ transition: slide-up
     /* Logic goes here */
 </script>
 
-<style lang="css (default) | scss | sass | less"> 
+<style [scoped] lang="css (default) | scss | sass | less"> 
     /* styles go here */
 </style>
 ```

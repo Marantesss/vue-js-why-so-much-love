@@ -1,3 +1,7 @@
+---
+layout: section
+---
+
 # 5. Challenges
 
 There are two sides to every coin, and Vue is no exception.
@@ -116,6 +120,8 @@ const App = (props) => {
 <!--
 Up to this day you can still find React projects that are still using the old Class components syntax (before React `v16.8`). Even if this syntax was dropped back in 2019 in favor of functional components and hooks.
 -->
+
+---
 
 # Migrating to Vue 3 is inevitable
 

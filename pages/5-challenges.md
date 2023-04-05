@@ -35,6 +35,7 @@ Imagine you're learning Vue for the first time:
 <ol>
   <li v-click>you take a look at the docs</li>
   <li v-click>you start looking at code snippets</li>
+  <li v-click>you find out there's a Vue 2 and a Vue 3</li>
   <li v-click>you quickly question every decision you've ever made</li>
 </ol>
 
